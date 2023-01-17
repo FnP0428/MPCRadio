@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MPC Radio Online</title>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/styles2.css">
+  <script src="https://kit.fontawesome.com/104f2d9a67.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <!-- Navbar Start -->
+  <div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="./images/MPC_logo.png" alt="MPC" width="100" height="35"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./catchup.html">Catch Up</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./hostshow.html">Host Show</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./yoursay.html">Your Say</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <!-- Navbar End -->
+
+<!-- Player Section -->
+  <div>
+    <div>
+      <div>
+        <img class="player-image" src="images/MPC_playerbg.png" alt="Player BG">
+      </div>
+      <!-- Player Controls -->
+      <div class="player-panel">
+        <div class="container">
+          <div class="player-controls">
+            <div class="controls-left">
+              <button class="btn btn-dark" type="button"><i class="fa-solid fa-play"></i></button>
+              <button class="btn btn-dark" type="button"><i class="fa-solid fa-stop"></i></button>
+            </div>
+            <div class="controls-center">
+              <button class="btn btn-dark" type="button"><i class="fa-solid fa-volume-high"></i></button>
+              <i class="audio-wave">----------------------</i>
+              <button class="btn btn-dark" type="button"><i class="fa-solid fa-volume-xmark"></i></button>
+            </div>
+            <div class="controls-right">
+              <p class="live-icon"><i class="fa-regular fa-circle-dot fa-beat-fade"></i> LIVE</p>
+            </div>
+            <!-- Audio Controller -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Staus Section PC -->
+    <div class="status">
+      <div class="status-group">
+        <div class="container">
+          <!-- Status Mobile - Hidden until 600px -->
+          <div class="status-mobile">
+            <i class="status-line fa-pull-left"></i>
+            <h6 class="status-active"><span>ON AIR: </span>09:00 - 10:00 <span>--- </span> The BAP Club</h6>
+            <h6 class="status-inactive"><span>NEXT: </span>10:00 - 13:00 <span>--- </span> The Anthony Hamilton Show</h6>
+            <h6 class="status-inactive"><span>LATER: </span>13:00 - 15:00 <span>--- </span> Sunday Lunch Chat Show</h6>
+          </div>
+          <div class="status-pc">
+            <div class="row justify-content-center">
+              <div class="col-sm-3 col-md-4">
+                <i class="status-line fa-pull-left"></i>
+                <h6 class="status-active"><span>ON AIR: </span>09:00 - 10:00</h6>
+                <h4>The BAP Club</h4>
+                <h6>Christian Praise</h6>
+              </div>
+              <div class="col-sm-3 col-md-4">
+                <i class="status-line fa-pull-left"></i>
+                <h6 class="status-inactive"><span>NEXT: </span>10:00 - 13:00</h6>
+                <h4>The Anthony Hamilton Show</h4>
+                <h6>Theme: 70's Disco - Your Music</h6>
+              </div>
+              <div class="col-sm-3 col-md-4">
+                <i class="status-line fa-pull-left"></i>
+                <h6 class="status-inactive"><span>LATER: </span>13:00 - 15:00</h6>
+                <h4>Sunday Lunch Chat Show</h4>
+                <h6>Local Councils vs Community: Have your Say</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+    <!-- Features Section -->
+    <div class="features">
+      <div class="container">
+        <div class="features-group">
+          <div class="row justify-content-center">
+            <div class="feature-tbox col-sm-6 col-md-4">
+              <h4>CATCH UP</h4>
+              <p class="feature-text">
+                Re-listen or catch up with previous shows.
+              </p>
+            </div>
+            <img class="features-images col-sm-6 col-md-4" src="./images/CU_img1.png" alt="80's party image">
+            <img class="features-images me-lg-4 col-sm-6 col-md-4" src="./images/CU_img2.png" alt="90's party image">
+
+            <div class="feature-tbox col-sm-3 col-md-4">
+              <h4>HOST SHOW</h4>
+              <p class="feature-text">
+                Host a show from your location.
+              </p>
+            </div>
+            <img class="features-images col-sm-6 col-md-4" src="./images/HS_img1.png" alt="Host image1">
+            <img class="features-images me-lg-4 col-sm-6 col-md-4" src="./images/HS_img2.png" alt="Host image2">
+
+            <div class="feature-tbox col-sm-6 col-md-4">
+              <h4>YOUR SAY</h4>
+              <p class="feature-text">
+                Share with the local community.
+              </p>
+            </div>
+            <img class="features-images col-sm-6 col-md-4" src="./images/YS_img1.png" alt="YourSay image1">
+            <img class="features-images me-lg-4 col-sm-6 col-md-4" src="./images/YS_img2.png" alt="YourSay image2">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Info Section -->
+
+    <!-- Footer Section -->
+    <div class="footer">
+      <p class="legals">
+        <a class="legals" href="./info.html">Disclaimer</a>
+      </p>
+      <i class="fa-brands fa-3x fa-square-facebook"></i>
+      <i class="fa-brands fa-3x fa-square-instagram"></i>
+      <i class="fa-brands fa-3x fa-square-twitter"></i>
+      <p>
+        Copyright © 2022 Frankster WebApps.
+      </p>
+
+
+    </div>
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+
+</html>

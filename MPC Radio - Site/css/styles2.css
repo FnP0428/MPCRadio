@@ -1,0 +1,217 @@
+
+
+body {
+  color: white;
+  background-image: linear-gradient(to right, #18ebcf, #f2d43f);
+}
+
+/* Player Section */
+.player-image {
+  width: 100%;
+  height: auto;
+}
+.player-panel {
+  background-color: #272828d1;
+  padding: 10px 0 10px;
+}
+.player-controls {
+  background-color: #272828d1;
+  border-radius: 5px;
+  position: relative;
+  padding: 30px 0 30px;
+}
+.controls-left {
+  position: absolute;
+  bottom: 10px;
+  left: 16px;
+}
+.btn-dark {
+  background-color: #272828;
+}
+.controls-center {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+.audio-wave {
+  position: relative;
+  top: 2px;
+  background-color: #272828;
+  color: #18ebcf;
+  padding: 8px 15px 8px 15px;
+  border-radius: 5px;
+}
+
+.controls-right {
+  color: #f2d43f;
+  position: absolute;
+  bottom: 4px;
+  right: 16px;
+}
+
+/* Status Section */
+.status-mobile {
+  visibility: hidden;
+}
+.status-pc {
+  visibility: visible;
+  position: relative;
+  bottom: 80px;
+}
+.status-line {
+  background-color: #27282821;
+  border-radius: 3px;
+  padding: 40px 2px;
+  font-size: 5rem;
+}
+
+.fa-grip-lines-vertical {
+  color: #27282821;
+  font-size: 6rem;
+}
+.status-active span{
+  color: #f2d43f;
+}
+.status-inactive span{
+  color: #18ebcf;
+}
+.status {
+  background-color: #27282894;
+  padding: 10px;
+  margin-bottom: -85px;
+
+}
+/* Features Section */
+.features {
+  background-image: linear-gradient(to right, #18ebcf, #f2d43f);
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.features-images {
+  border-radius: 10px;
+  height: 130px;
+  width: 130px;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+
+.feature-tbox {
+  background-color: #272828d1;
+  border-radius: 10px;
+  height: 130px;
+  width: 130px;
+  padding-top: 5px;
+}
+
+.feature-text {
+  font-size: 0.85rem;
+  line-height: normal;
+}
+
+/* Info Section */
+.info span {
+  font-weight: bold;
+}
+.info {
+  background-color: #27282894;
+  padding: 10px;
+  font-size: 1rem;
+  text-align: justify;
+}
+
+.legals {
+  font-size: 1rem;
+  text-align: center;
+}
+
+a.legals {
+  color: white;
+}
+
+
+/* Footer Section */
+.fa-brands {
+  padding: 30px 30px 30px;
+}
+
+.footer {
+  background-color: #272828;
+  font-size: 0.75rem;
+  padding: 30px 0 30px;
+  text-align: center;
+}
+
+
+/* Contact & YourSay Section */
+.contact-box {
+  padding: 30px 60px 20px 60px;
+  background-color: #27282894;
+  border-radius: 5px;
+  margin: 5px 0;
+}
+.contact-sub {
+  padding: 20px 60px 20px 60px;
+  background-color: #27282894;
+  border-radius: 5px;
+  margin: 30px 0 5px;
+  text-align: justify;
+}
+
+/* Construction Styles */
+.construction {
+  color: #272828;
+  text-align: center;
+  margin: auto;
+}
+/* carousel */
+.c-images {
+  border-radius: 10px;
+}
+.slideshow-container {
+  width: 50%;
+  height: auto;
+  margin: auto;
+}
+
+
+
+/* Media Queries */
+@media only screen and (max-width: 600px) {
+  .status-mobile {
+    visibility: visible;
+    scale: 90%;
+  }
+  .status-pc {
+    visibility: hidden;
+  }
+  .status {
+    background-color: #27282894;
+    padding: 10px;
+    margin-bottom: -270px;
+  }
+  .legals {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .fa-brands {
+    padding: 5px 20px 15px;
+  }
+
+  .footer {
+    background-color: #272828;
+    font-size: 0.65rem;
+    text-align: center;
+    padding-bottom: 30px;
+
+
+
+  }
+
+
+
+}
